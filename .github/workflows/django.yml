@@ -28,3 +28,4 @@ jobs:
     - name: Run Tests
       run: |
         python manage.py test
+cat codecov.yml | curl --data-binary @- https://codecov.io/validate
